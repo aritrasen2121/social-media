@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `https://social-media-app-t425.onrender.com//users/${_id}/${friendId}`,
+      `https://social-media-app-t425.onrender.com/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
