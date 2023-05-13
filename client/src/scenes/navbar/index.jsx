@@ -56,7 +56,7 @@ const Navbar = () => {
             },
           }}
         >
-          Social Media
+          Insta Book
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
